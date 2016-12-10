@@ -9,4 +9,12 @@
 - mocha
 - karma
 
+## webpack + babel
+
+```
+npm install --save-dev babel-loader babel-core babel-preset-es2015
+```
+
+配置webpack.config.js文件
+
 
