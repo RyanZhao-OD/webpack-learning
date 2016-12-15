@@ -40,3 +40,17 @@ devServer: {
     }
 }
 ```
+
+## 使用react
+
+下载babel-preset-react包解析jsx语法
+```
+npm install --save-dev babel-preset-react
+```
+
+在.babelrc文件presets中加入"react"
+```
+{
+    "presets": ["es2015", "react"]
+}
+```

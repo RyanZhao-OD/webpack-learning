@@ -1,6 +1,6 @@
-// CommonJS
-// var component = require('./component');
+import React from 'react';
+import { render } from 'react-dom';
 
-import component from './component';
+import App from './containers/App';
 
-component();
+render(<App />, document.getElementById('app'));
