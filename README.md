@@ -54,3 +54,11 @@ npm install --save-dev babel-preset-react
     "presets": ["es2015", "react"]
 }
 ```
+
+## 搭建测试环境
+- karma 测试运行器
+- mocha test framework
+
+```
+ ./node_modules/.bin/karma init
+```
