@@ -9,7 +9,7 @@ var config = {
     entry: path.resolve(__dirname, './src/index.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.[hash].js'
+        filename: 'bundle.js?[hash:6]'
     },
     devServer: {
         contentBase: 'dist',
