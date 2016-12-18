@@ -67,3 +67,10 @@ npm install --save-dev babel-preset-react
 ```
 ./node_modules/.bin/eslint --init
 ```
+
+## 查看占用特定端口的进程
+
+```
+lsof -i :3000
+kill -9 <pid>
+```
