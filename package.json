@@ -6,6 +6,7 @@
   "scripts": {
     "test": "karma start",
     "build": "webpack --progress --colors",
+    "build-prod": "webpack --progress --colors --config webpack.config.prod.js",
     "server": "webpack-dev-server --progress"
   },
   "keywords": [],
