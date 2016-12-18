@@ -62,3 +62,8 @@ npm install --save-dev babel-preset-react
 ```
  ./node_modules/.bin/karma init
 ```
+
+## eslint
+```
+./node_modules/.bin/eslint --init
+```
